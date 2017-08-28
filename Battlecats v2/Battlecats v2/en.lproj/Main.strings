@@ -1,0 +1,612 @@
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
+"1UK-8n-QPP.title" = "Customize Toolbar…";
+
+/* Class = "NSMenuItem"; title = "Battlecats v2"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Battlecats v2";
+
+/* Class = "NSTextFieldCell"; title = "Todo empezó una oscura noche de invierno, cuando debido a los reumas, artitis, la gota, pero sobre todo la edad la querida dueña de la fabrica de croquetas para gatos murió...\nPero la buena noticia es que ¡heredó su fabrica! Aunque lo hizo a todos sus gatos.\n¡Asi empezó la primera Battlecats!\n\nEntre menos gatos haya, más croquetas para los restantes."; ObjectID = "1Z7-VP-f7x"; */
+
+"1Z7-VP-f7x.title" = "It start in a winter night, when because of rheumatism, arthritis, gout, but above everything the old that was the dear croquettes factory's owner, died... \nBut the good new is that ¡she inherited her factory! Although for her cats. \nSo ¡it launched the first battlecats! \n\nIf there are less cats, there are more croquettes for the rest";
+
+/*Class = "NSAlert"; messageText = "Para mandar una invitación da doble clic sobre el nombre del usuario"; ObjectID = "Para mandar una invitación da doble clic sobre el nombre del usuario" */
+
+"Para mandar una invitación da doble clic sobre el nombre del usuario" = "Doble click in a user to Send a invitation";
+
+/*Class = NSAlert; informativeText = "¡Juguemos Battlecats!"; ObjectID = "¡Juguemos Battlecats!"*/
+
+"¡Juguemos Battlecats!" = "¡Let's play Battlecats!";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; */
+"1b7-l0-nxx.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "Lower"; ObjectID = "1tx-W0-xDw"; */
+"1tx-W0-xDw.title" = "Lower";
+
+/* Class = "NSMenuItem"; title = "Raise"; ObjectID = "2h7-ER-AoG"; */
+"2h7-ER-AoG.title" = "Raise";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "2oI-Rn-ZJC"; */
+"2oI-Rn-ZJC.title" = "Transformations";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "3IN-sU-3Bg"; */
+"3IN-sU-3Bg.title" = "Spelling";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "3Om-Ey-2VK"; */
+"3Om-Ey-2VK.title" = "Use Default";
+
+/* Class = "NSButtonCell"; title = "24"; ObjectID = "3eN-57-0I0"; */
+"3eN-57-0I0.title" = "24";
+
+/* Class = "NSButtonCell"; title = "11"; ObjectID = "3kM-U5-FfB"; */
+"3kM-U5-FfB.title" = "11";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "3rS-ZA-NoH"; */
+"3rS-ZA-NoH.title" = "Speech";
+
+/* Class = "NSButtonCell"; title = "7"; ObjectID = "42Y-eh-5rl"; */
+"42Y-eh-5rl.title" = "7";
+
+/* Class = "NSMenuItem"; title = "Tighten"; ObjectID = "46P-cB-AYj"; */
+"46P-cB-AYj.title" = "Tighten";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "4EN-yA-p0u"; */
+"4EN-yA-p0u.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
+"4J7-dP-txa.title" = "Enter Full Screen";
+
+/* Class = "NSTextFieldCell"; title = "Restantes: "; ObjectID = "4fE-wq-CI0"; */
+"4fE-wq-CI0.title" = "Rest: ";
+
+/* Class = "NSMenuItem"; title = "Quit Battlecats v2"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit Battlecats v2";
+
+/* Class = "NSButtonCell"; title = "1"; ObjectID = "53z-Tg-2Bh"; */
+"53z-Tg-2Bh.title" = "1";
+
+/* Class = "NSButtonCell"; title = "6"; ObjectID = "57w-ac-cez"; */
+"57w-ac-cez.title" = "6";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
+"5QF-Oa-p0T.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "5Vv-lz-BsD"; */
+"5Vv-lz-BsD.title" = "Copy Style";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Ingresa Usuario"; ObjectID = "5cu-b4-D3x"; */
+"5cu-b4-D3x.placeholderString" = "User";
+
+/* Class = "NSMenuItem"; title = "About Battlecats v2"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About Battlecats v2";
+
+/* Class = "NSTextFieldCell"; title = "Battlecats Game"; ObjectID = "5mz-4w-coJ"; */
+"5mz-4w-coJ.title" = "Battlecats Game";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "Redo";
+
+/* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "78Y-hA-62v"; */
+"78Y-hA-62v.title" = "Correct Spelling Automatically";
+
+/* Class = "NSButtonCell"; title = "1"; ObjectID = "8Hd-pi-lqE"; */
+"8Hd-pi-lqE.title" = "1";
+
+/* Class = "NSMenu"; title = "Writing Direction"; ObjectID = "8mr-sm-Yjd"; */
+"8mr-sm-Yjd.title" = "Writing Direction";
+
+/* Class = "NSButtonCell"; title = "20"; ObjectID = "9E2-BK-zbG"; */
+"9E2-BK-zbG.title" = "20";
+
+/* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "9ic-FL-obx"; */
+"9ic-FL-obx.title" = "Substitutions";
+
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "9yt-4B-nSM"; */
+"9yt-4B-nSM.title" = "Smart Copy/Paste";
+
+/* Class = "NSTextFieldCell"; title = "Battlecats Game"; ObjectID = "AGK-bk-YpX"; */
+"AGK-bk-YpX.title" = "Battlecats Game";
+
+/* Class = "NSButtonCell"; title = "15"; ObjectID = "ATs-bn-hKf"; */
+"ATs-bn-hKf.title" = "15";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Ah9-bm-qY6"; */
+"Ah9-bm-qY6.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "BgM-ve-c93"; */
+"BgM-ve-c93.title" = "\tLeft to Right";
+
+/* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "Bw7-FT-i3A"; */
+"Bw7-FT-i3A.title" = "Save As…";
+
+/* Class = "NSButtonCell"; title = "23"; ObjectID = "CYE-mM-rvC"; */
+"CYE-mM-rvC.title" = "23";
+
+/* Class = "NSButtonCell"; title = "12"; ObjectID = "ClB-Ie-PUF"; */
+"ClB-Ie-PUF.title" = "12";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; */
+"DVo-aG-piG.title" = "Close";
+
+/* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "Dv1-io-Yv7"; */
+"Dv1-io-Yv7.title" = "Spelling and Grammar";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "Battlecats v2 Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Battlecats v2 Help";
+
+/* Class = "NSMenuItem"; title = "Text"; ObjectID = "Fal-I4-PZk"; */
+"Fal-I4-PZk.title" = "Text";
+
+/* Class = "NSButtonCell"; title = "13"; ObjectID = "Fd7-dV-RWJ"; */
+"Fd7-dV-RWJ.title" = "13";
+
+/* Class = "NSMenu"; title = "Substitutions"; ObjectID = "FeM-D8-WVr"; */
+"FeM-D8-WVr.title" = "Substitutions";
+
+/* Class = "NSMenuItem"; title = "Bold"; ObjectID = "GB9-OM-e27"; */
+"GB9-OM-e27.title" = "Bold";
+
+/* Class = "NSMenu"; title = "Format"; ObjectID = "GEO-Iw-cKr"; */
+"GEO-Iw-cKr.title" = "Format";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "GUa-eO-cwY"; */
+"GUa-eO-cwY.title" = "Use Default";
+
+/* Class = "NSMenuItem"; title = "Font"; ObjectID = "Gi5-1S-RQB"; */
+"Gi5-1S-RQB.title" = "Font";
+
+/* Class = "NSMenuItem"; title = "Writing Direction"; ObjectID = "H1b-Si-o9J"; */
+"H1b-Si-o9J.title" = "Writing Direction";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "View";
+
+/* Class = "NSButtonCell"; title = "19"; ObjectID = "HCR-t4-CCM"; */
+"HCR-t4-CCM.title" = "19";
+
+/* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "HFQ-gK-NFA"; */
+"HFQ-gK-NFA.title" = "Text Replacement";
+
+/* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "HFo-cy-zxI"; */
+"HFo-cy-zxI.title" = "Show Spelling and Grammar";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "View";
+
+/* Class = "NSMenuItem"; title = "Subscript"; ObjectID = "I0S-gh-46l"; */
+"I0S-gh-46l.title" = "Subscript";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9"; */
+"IAo-SY-fd9.title" = "Open…";
+
+/* Class = "NSButtonCell"; title = "2"; ObjectID = "IE5-6w-zbg"; */
+"IE5-6w-zbg.title" = "2";
+
+/* Class = "NSWindow"; title = "Battlecats"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Battlecats";
+
+/* Class = "NSMenuItem"; title = "Justify"; ObjectID = "J5U-5w-g23"; */
+"J5U-5w-g23.title" = "Justify";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "J7y-lM-qPV"; */
+"J7y-lM-qPV.title" = "Use None";
+
+/* Class = "NSButtonCell"; title = "18"; ObjectID = "JOn-7t-TlJ"; */
+"JOn-7t-TlJ.title" = "18";
+
+/* Class = "NSButtonCell"; title = "5"; ObjectID = "Jgs-Vx-AcT"; */
+"Jgs-Vx-AcT.title" = "5";
+
+/* Class = "NSButtonCell"; title = "10"; ObjectID = "Jvd-lT-bEx"; */
+"Jvd-lT-bEx.title" = "10";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "KZm-12-GUZ"; */
+"KZm-12-GUZ.title" = "Table View Cell";
+
+/* Class = "NSMenuItem"; title = "Revert to Saved"; ObjectID = "KaW-ft-85H"; */
+"KaW-ft-85H.title" = "Revert to Saved";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Bring All to Front";
+
+/* Class = "NSMenuItem"; title = "Paste Ruler"; ObjectID = "LVM-kO-fVI"; */
+"LVM-kO-fVI.title" = "Paste Ruler";
+
+/* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "Lbh-J2-qVU"; */
+"Lbh-J2-qVU.title" = "\tLeft to Right";
+
+/* Class = "NSMenuItem"; title = "Copy Ruler"; ObjectID = "MkV-Pr-PK5"; */
+"MkV-Pr-PK5.title" = "Copy Ruler";
+
+/* Class = "NSButtonCell"; title = "12"; ObjectID = "MvU-mo-uXw"; */
+"MvU-mo-uXw.title" = "12";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Services";
+
+/* Class = "NSTextFieldCell"; title = "Tablero Aliado"; ObjectID = "NXH-Td-09M"; */
+"NXH-Td-09M.title" = "Tablero Aliado";
+
+/* Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "Nop-cj-93Q"; */
+"Nop-cj-93Q.title" = "\tDefault";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "Minimize";
+
+/* Class = "NSMenuItem"; title = "Baseline"; ObjectID = "OaQ-X3-Vso"; */
+"OaQ-X3-Vso.title" = "Baseline";
+
+/* Class = "NSMenuItem"; title = "Hide Battlecats v2"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide Battlecats v2";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
+"OwM-mh-QMV.title" = "Find Previous";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "Oyz-dy-DGm"; */
+"Oyz-dy-DGm.title" = "Stop Speaking";
+
+/* Class = "NSButtonCell"; title = "14"; ObjectID = "PiL-Z6-psI"; */
+"PiL-Z6-psI.title" = "14";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "Ptp-SP-VEL"; */
+"Ptp-SP-VEL.title" = "Bigger";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "Q5e-8K-NDq"; */
+"Q5e-8K-NDq.title" = "Show Fonts";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "RB4-Sm-HuC"; */
+"RB4-Sm-HuC.title" = "\tRight to Left";
+
+/* Class = "NSButtonCell"; title = "Empezar"; ObjectID = "RUT-M8-s9T"; */
+"RUT-M8-s9T.title" = "Begin";
+
+/* Class = "NSMenuItem"; title = "Superscript"; ObjectID = "Rqc-34-cIF"; */
+"Rqc-34-cIF.title" = "Superscript";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "Select All";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "S0p-oC-mLd"; */
+"S0p-oC-mLd.title" = "Jump to Selection";
+
+/* Class = "NSButtonCell"; title = "3"; ObjectID = "S6c-4r-sLH"; */
+"S6c-4r-sLH.title" = "3";
+
+/* Class = "NSButtonCell"; title = "20"; ObjectID = "SRx-s2-4DT"; */
+"SRx-s2-4DT.title" = "20";
+
+/* Class = "NSButtonCell"; title = "21"; ObjectID = "Soi-rE-LaD"; */
+"Soi-rE-LaD.title" = "21";
+
+/* Class = "NSButtonCell"; title = "25"; ObjectID = "TIl-Xp-xqh"; */
+"TIl-Xp-xqh.title" = "25";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "15"; ObjectID = "Tea-PM-9nO"; */
+"Tea-PM-9nO.title" = "15";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "UEZ-Bs-lqG"; */
+"UEZ-Bs-lqG.title" = "Capitalize";
+
+/* Class = "NSButtonCell"; title = "3"; ObjectID = "V3p-hd-4mQ"; */
+"V3p-hd-4mQ.title" = "3";
+
+/* Class = "NSMenuItem"; title = "Center"; ObjectID = "VIY-Ag-zcb"; */
+"VIY-Ag-zcb.title" = "Center";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Italic"; ObjectID = "Vjx-xi-njq"; */
+"Vjx-xi-njq.title" = "Italic";
+
+/* Class = "NSButtonCell"; title = "4"; ObjectID = "Vnk-5u-6Nk"; */
+"Vnk-5u-6Nk.title" = "4";
+
+/* Class = "NSTextFieldCell"; title = "Elije la posición de tus gatos y tu nombre de usuario:"; ObjectID = "Vsz-Hs-9DD"; */
+"Vsz-Hs-9DD.title" = "Choose your cats' position and your nickname:";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Underline"; ObjectID = "WRG-CD-K1S"; */
+"WRG-CD-K1S.title" = "Underline";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "Was-JA-tGl"; */
+"Was-JA-tGl.title" = "New";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "WeT-3V-zwk"; */
+"WeT-3V-zwk.title" = "Paste and Match Style";
+
+/* Class = "NSViewController"; title = "Usuarios Conectados"; ObjectID = "XfG-lQ-9wD"; */
+"XfG-lQ-9wD.title" = "Connected Users: ";
+
+/* Class = "NSButtonCell"; title = "21"; ObjectID = "XpK-4g-poA"; */
+"XpK-4g-poA.title" = "21";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "Xz5-n4-O0W"; */
+"Xz5-n4-O0W.title" = "Find…";
+
+/* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "YEy-JH-Tfz"; */
+"YEy-JH-Tfz.title" = "Find and Replace…";
+
+/* Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "YGs-j5-SAR"; */
+"YGs-j5-SAR.title" = "\tDefault";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "Ynk-f8-cLZ"; */
+"Ynk-f8-cLZ.title" = "Start Speaking";
+
+/* Class = "NSButtonCell"; title = "6"; ObjectID = "ZG4-8d-uzU"; */
+"ZG4-8d-uzU.title" = "6";
+
+/* Class = "NSMenuItem"; title = "Align Left"; ObjectID = "ZM1-6Q-yy1"; */
+"ZM1-6Q-yy1.title" = "Align Left";
+
+/* Class = "NSMenuItem"; title = "Paragraph"; ObjectID = "ZvO-Gk-QUH"; */
+"ZvO-Gk-QUH.title" = "Paragraph";
+
+/* Class = "NSButtonCell"; title = "9"; ObjectID = "Zxq-gd-jdb"; */
+"Zxq-gd-jdb.title" = "9";
+
+/* Class = "NSButtonCell"; title = "8"; ObjectID = "aPm-FR-Tw1"; */
+"aPm-FR-Tw1.title" = "8";
+
+/* Class = "NSButtonCell"; title = "10"; ObjectID = "aT9-y0-nLu"; */
+"aT9-y0-nLu.title" = "10";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "aTl-1u-JFS"; */
+"aTl-1u-JFS.title" = "Print…";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Window";
+
+/* Class = "NSMenu"; title = "Font"; ObjectID = "aXa-aM-Jaq"; */
+"aXa-aM-Jaq.title" = "Font";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "agt-UL-0e3"; */
+"agt-UL-0e3.title" = "Use Default";
+
+/* Class = "NSButtonCell"; title = "16"; ObjectID = "agw-e1-cM2"; */
+"agw-e1-cM2.title" = "16";
+
+/* Class = "NSTextFieldCell"; title = "Bienvenido(a):"; ObjectID = "asJ-Jq-Qoa"; */
+"asJ-Jq-Qoa.title" = "Welcom:";
+
+/* Class = "NSTextFieldCell"; title = "Bienvenido al juego de Battlecats"; ObjectID = "axr-F9-flK"; */
+"axr-F9-flK.title" = "Welcome to the Battlecats Game";
+
+/* Class = "NSButtonCell"; title = "2"; ObjectID = "bep-wx-0GJ"; */
+"bep-wx-0GJ.title" = "2";
+
+/* Class = "NSMenuItem"; title = "Show Colors"; ObjectID = "bgn-CT-cEk"; */
+"bgn-CT-cEk.title" = "Show Colors";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "buJ-ug-pKt"; */
+"buJ-ug-pKt.title" = "Use Selection for Find";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "c8a-y6-VQd"; */
+"c8a-y6-VQd.title" = "Transformations";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "cDB-IK-hbR"; */
+"cDB-IK-hbR.title" = "Use None";
+
+/* Class = "NSButtonCell"; title = "5"; ObjectID = "cn4-dF-lzB"; */
+"cn4-dF-lzB.title" = "5";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "cqv-fj-IhA"; */
+"cqv-fj-IhA.title" = "Selection";
+
+/* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "cwL-P1-jid"; */
+"cwL-P1-jid.title" = "Smart Links";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "d9M-CD-aMd"; */
+"d9M-CD-aMd.title" = "Make Lower Case";
+
+/* Class = "NSMenu"; title = "Text"; ObjectID = "d9c-me-L2H"; */
+"d9c-me-L2H.title" = "Text";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "Undo";
+
+/* Class = "NSButtonCell"; title = "11"; ObjectID = "fUH-bx-OwO"; */
+"fUH-bx-OwO.title" = "11";
+
+/* Class = "NSTextFieldCell"; title = "No es tu turno: Esperando al otro jugador..."; ObjectID = "g0u-bF-SKc"; */
+"g0u-bF-SKc.title" = "It is not your turn: Waiting for the other player...";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "Paste";
+
+/* Class = "NSViewController"; title = "Juego"; ObjectID = "gXY-Qr-bT1"; */
+"gXY-Qr-bT1.title" = "Game";
+
+/* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "hQb-2v-fYv"; */
+"hQb-2v-fYv.title" = "Smart Quotes";
+
+/* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "hz2-CU-CR7"; */
+"hz2-CU-CR7.title" = "Check Document Now";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "i1d-Er-qST"; */
+"i1d-Er-qST.title" = "Smaller";
+
+/* Class = "NSMenu"; title = "Baseline"; ObjectID = "ijk-EB-dga"; */
+"ijk-EB-dga.title" = "Baseline";
+
+/* Class = "NSButtonCell"; title = "8"; ObjectID = "j2k-tc-9rG"; */
+"j2k-tc-9rG.title" = "8";
+
+/* Class = "NSMenuItem"; title = "Kern"; ObjectID = "jBQ-r6-VK2"; */
+"jBQ-r6-VK2.title" = "Kern";
+
+/* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "jFq-tB-4Kx"; */
+"jFq-tB-4Kx.title" = "\tRight to Left";
+
+/* Class = "NSButtonCell"; title = "16"; ObjectID = "jcv-Tt-h1A"; */
+"jcv-Tt-h1A.title" = "16";
+
+/* Class = "NSButtonCell"; title = "4"; ObjectID = "jrF-cQ-8wI"; */
+"jrF-cQ-8wI.title" = "4";
+
+/* Class = "NSMenuItem"; title = "Format"; ObjectID = "jxT-CU-nIS"; */
+"jxT-CU-nIS.title" = "Format";
+
+/* Class = "NSMenuItem"; title = "Show Sidebar"; ObjectID = "kIP-vf-haE"; */
+"kIP-vf-haE.title" = "Show Sidebar";
+
+/* Class = "NSButtonCell"; title = "19"; ObjectID = "kex-nj-Uv3"; */
+"kex-nj-Uv3.title" = "19";
+
+/* Class = "NSButtonCell"; title = "18"; ObjectID = "knI-TK-5PZ"; */
+"knI-TK-5PZ.title" = "18";
+
+/* Class = "NSButtonCell"; title = "25"; ObjectID = "lxL-Kn-qkW"; */
+"lxL-Kn-qkW.title" = "25";
+
+/* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "mK6-2p-4JG"; */
+"mK6-2p-4JG.title" = "Check Grammar With Spelling";
+
+/* Class = "NSTextFieldCell"; title = "5"; ObjectID = "mfS-K7-Kwi"; */
+"mfS-K7-Kwi.title" = "5";
+
+/* Class = "NSButtonCell"; title = "22"; ObjectID = "mk9-f5-fgJ"; */
+"mk9-f5-fgJ.title" = "22";
+
+/* Class = "NSViewController"; title = "Iniciar Sesion"; ObjectID = "mr1-S8-9lm"; */
+"mr1-S8-9lm.title" = "Log in";
+
+/* Class = "NSMenuItem"; title = "Ligatures"; ObjectID = "o6e-r0-MWq"; */
+"o6e-r0-MWq.title" = "Ligatures";
+
+/* Class = "NSTextFieldCell"; title = "Usuarios"; ObjectID = "oDS-p9-I8v"; */
+"oDS-p9-I8v.title" = "User";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "oas-Oc-fiZ"; */
+"oas-Oc-fiZ.title" = "Open Recent";
+
+/* Class = "NSMenuItem"; title = "Loosen"; ObjectID = "ogc-rX-tC1"; */
+"ogc-rX-tC1.title" = "Loosen";
+
+/* Class = "NSButtonCell"; title = "17"; ObjectID = "osF-Me-Huo"; */
+"osF-Me-Huo.title" = "17";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
+"pa3-QI-u2k.title" = "Delete";
+
+/* Class = "NSButtonCell"; title = "22"; ObjectID = "ppH-NN-Q0D"; */
+"ppH-NN-Q0D.title" = "22";
+
+/* Class = "NSTextFieldCell"; title = "Tablero Enemigo"; ObjectID = "prW-2M-9ee"; */
+"prW-2M-9ee.title" = "Enemy table";
+
+/* Class = "NSMenuItem"; title = "Save…"; ObjectID = "pxx-59-PXV"; */
+"pxx-59-PXV.title" = "Save…";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "q09-fT-Sye"; */
+"q09-fT-Sye.title" = "Find Next";
+
+/* Class = "NSMenuItem"; title = "Page Setup…"; ObjectID = "qIS-W8-SiK"; */
+"qIS-W8-SiK.title" = "Page Setup…";
+
+/* Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "rbD-Rh-wIN"; */
+"rbD-Rh-wIN.title" = "Check Spelling While Typing";
+
+/* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "rgM-f4-ycn"; */
+"rgM-f4-ycn.title" = "Smart Dashes";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "snW-S8-Cw5"; */
+"snW-S8-Cw5.title" = "Show Toolbar";
+
+/* Class = "NSButtonCell"; title = "7"; ObjectID = "sua-VP-Qcv"; */
+"sua-VP-Qcv.title" = "7";
+
+/* Class = "NSMenuItem"; title = "Data Detectors"; ObjectID = "tRr-pd-1PS"; */
+"tRr-pd-1PS.title" = "Data Detectors";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws"; */
+"tXI-mr-wws.title" = "Open Recent";
+
+/* Class = "NSMenu"; title = "Kern"; ObjectID = "tlD-Oa-oAM"; */
+"tlD-Oa-oAM.title" = "Kern";
+
+/* Class = "NSMenu"; title = "Battlecats v2"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Battlecats v2";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "Cut";
+
+/* Class = "NSButtonCell"; title = "14"; ObjectID = "uf6-jv-xyf"; */
+"uf6-jv-xyf.title" = "14";
+
+/* Class = "NSButtonCell"; title = "23"; ObjectID = "uhN-G5-ci0"; */
+"uhN-G5-ci0.title" = "23";
+
+/* Class = "NSButtonCell"; title = "9"; ObjectID = "uvj-WA-dvj"; */
+"uvj-WA-dvj.title" = "9";
+
+/* Class = "NSMenuItem"; title = "Paste Style"; ObjectID = "vKC-jM-MkH"; */
+"vKC-jM-MkH.title" = "Paste Style";
+
+/* Class = "NSMenuItem"; title = "Show Ruler"; ObjectID = "vLm-3I-IUL"; */
+"vLm-3I-IUL.title" = "Show Ruler";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "vNY-rz-j42"; */
+"vNY-rz-j42.title" = "Clear Menu";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "vmV-6d-7jI"; */
+"vmV-6d-7jI.title" = "Make Upper Case";
+
+/* Class = "NSButtonCell"; title = "13"; ObjectID = "w0R-RP-qLx"; */
+"w0R-RP-qLx.title" = "13";
+
+/* Class = "NSMenu"; title = "Ligatures"; ObjectID = "w0m-vy-SC9"; */
+"w0m-vy-SC9.title" = "Ligatures";
+
+/* Class = "NSMenuItem"; title = "Align Right"; ObjectID = "wb2-vD-lq4"; */
+"wb2-vD-lq4.title" = "Align Right";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "Copy";
+
+/* Class = "NSMenuItem"; title = "Use All"; ObjectID = "xQD-1f-W4t"; */
+"xQD-1f-W4t.title" = "Use All";
+
+/* Class = "NSButtonCell"; title = "17"; ObjectID = "xj1-Ld-yRl"; */
+"xj1-Ld-yRl.title" = "17";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "xrE-MZ-jX0"; */
+"xrE-MZ-jX0.title" = "Speech";
+
+/* Class = "NSButtonCell"; title = "24"; ObjectID = "xwC-zr-WYp"; */
+"xwC-zr-WYp.title" = "24";
+
+/* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "z6F-FW-3nz"; */
+"z6F-FW-3nz.title" = "Show Substitutions";

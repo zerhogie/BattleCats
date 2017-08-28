@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  Battlecats v2
+
+  Created by Enrique Rodríguez Castañeda on 24/12/16.
+  Copyright © 2016 Swifticats. All rights reserved.
+*/
+
+/*
+ "Mensaje que aparece en el título de la alerta de la invitación"
+ */
+"Invitación" = "Invitation"
+
+/*
+ Mensaje que se muestra cuando un usuario invita a otro a jugar una partida
+ */
+"Te invita a jugar una partida" = "Invite you to play"
+
+/*
+ Mensaje que aparece en el botón de aceptar
+ */
+"Aceptar" = "Accept"
+
+/*
+ Mensaje que aparece en el boton de rechazar
+ */
+"Rechazar" = "Refuse"
+
+/*
+ Mensaje que aparece cuando intenta invitarse a si mismo a jugar
+ */
+"No puedes invitarte a ti mismo" = "You can not invite to yourself"
+
+/*
+ Una disculpa
+ */
+"Lo sientimos" = "We are sorry, "
+
+/*
+ Mensaje que aparece cuando un usuario rechaza la invitación
+ */
+" rechazó tu invitación" = " refuse your invitation"
+
+/*
+ Pregunta de confirmación para salir
+ */
+"¿Seguro que quieres salir?" = "¿do you want to exit?"
+
+/*
+ Comentario del mensaje de confirmación para salir
+ */
+"Presiona desconectar para salir" = "Click on disconnect to exit"
+
+/*
+ Botón para desconectar
+ */
+"Desconectar" = "Disconnect"
+
+/*
+ Botón para cancelar
+ */
+"Cancelar" = "Cancel"
+
+/*
+ Mensaje que aparece en la ayuda del usuario para explicar como mandar una invitación
+ */
+"Para mandar una invitación da doble clic sobre el nombre del usuario" = "For send a invitation to play just do double-click on the oponent's name"
+
+/*
+ Mensaje de información de la alerta para la ayuda de mandar una invitación
+ */
+"¡Juguemos Battlecats!" = "¡Play Battlecats!"
+
+/*
+ Mensaje que aparece cuando el usuario gana el juego
+ */
+"¡Felicidades! Ganaste el juego" = "¡Congratulation! You won the game"
+
+/*
+ Mensaje de información cuando el usuario gana la partida
+ */
+"Tu equipo se ha quedado con la herencia" = "Your team earn all cat "
+
+/*
+ Mensaje que aparece cuando el usuario pierde la partida
+ */
+"¡Jajajaja! Perdiste el juego" = "¡Jajajaja! You lost the game"
+
+/*
+ Mensaje de información cuando el usuario pierde la partida
+ */
+"Te han robado la muchas croquetas de la herencia" = "You have been robbed of the much cat food of the inheritance"

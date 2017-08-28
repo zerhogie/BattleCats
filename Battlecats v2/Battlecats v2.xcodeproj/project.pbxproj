@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9021B09B1DFF7A7E005CC728 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021B09A1DFF7A7E005CC728 /* BaseCell.swift */; };
+		9021B09E1DFF861D005CC728 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021B09C1DFF861D005CC728 /* UserCell.swift */; };
+		9021B09F1DFF861D005CC728 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9021B09D1DFF861D005CC728 /* UserCell.xib */; };
+		906DE2991E01ECC3003834D9 /* gatoTriste.png in Resources */ = {isa = PBXBuildFile; fileRef = 906DE2981E01ECC3003834D9 /* gatoTriste.png */; };
+		9074C8091DFF5C8500491FFF /* tkshredder - zoomout.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9074C8071DFF5C8500491FFF /* tkshredder - zoomout.wav */; };
+		9074C80A1DFF5C8500491FFF /* Maullido doloroso.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9074C8081DFF5C8500491FFF /* Maullido doloroso.wav */; };
+		907A36501DFA17B900E04D78 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907A364F1DFA17B900E04D78 /* UserViewController.swift */; };
+		90852E241DF9B46000D07C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E231DF9B46000D07C6E /* AppDelegate.swift */; };
+		90852E281DF9B46000D07C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90852E271DF9B46000D07C6E /* Assets.xcassets */; };
+		90852E2B1DF9B46000D07C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90852E291DF9B46000D07C6E /* Main.storyboard */; };
+		90852E361DF9B46000D07C6E /* Battlecats_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E351DF9B46000D07C6E /* Battlecats_v2Tests.swift */; };
+		90852E411DF9B46000D07C6E /* Battlecats_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E401DF9B46000D07C6E /* Battlecats_v2UITests.swift */; };
+		90852E521DF9B6FE00D07C6E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E511DF9B6FE00D07C6E /* GameViewController.swift */; };
+		90852E811DF9C38100D07C6E /* Maullido de gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90852E731DF9C38100D07C6E /* Maullido de gato.mp3 */; };
+		90852E821DF9C38100D07C6E /* Nightcore – True Stories.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90852E741DF9C38100D07C6E /* Nightcore – True Stories.mp3 */; };
+		90852E831DF9C38100D07C6E /* 128x2@.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E761DF9C38100D07C6E /* 128x2@.png */; };
+		90852E841DF9C38100D07C6E /* 16x2@.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E771DF9C38100D07C6E /* 16x2@.png */; };
+		90852E851DF9C38100D07C6E /* 256.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E781DF9C38100D07C6E /* 256.png */; };
+		90852E861DF9C38100D07C6E /* 256x2@.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E791DF9C38100D07C6E /* 256x2@.png */; };
+		90852E871DF9C38100D07C6E /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E7A1DF9C38100D07C6E /* 32.png */; };
+		90852E881DF9C38100D07C6E /* 32x2@.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E7B1DF9C38100D07C6E /* 32x2@.png */; };
+		90852E891DF9C38100D07C6E /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E7C1DF9C38100D07C6E /* 512.png */; };
+		90852E8A1DF9C38100D07C6E /* 512x2@.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E7D1DF9C38100D07C6E /* 512x2@.png */; };
+		90852E8B1DF9C38100D07C6E /* carita seleccionada.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E7E1DF9C38100D07C6E /* carita seleccionada.png */; };
+		90852E8C1DF9C38100D07C6E /* carita.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E7F1DF9C38100D07C6E /* carita.png */; };
+		90852E8D1DF9C38100D07C6E /* Gato dormido.png in Resources */ = {isa = PBXBuildFile; fileRef = 90852E801DF9C38100D07C6E /* Gato dormido.png */; };
+		90852EA71DF9CE9600D07C6E /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E8F1DF9CE9600D07C6E /* SocketAckEmitter.swift */; };
+		90852EA81DF9CE9600D07C6E /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E901DF9CE9600D07C6E /* SocketAckManager.swift */; };
+		90852EA91DF9CE9600D07C6E /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E911DF9CE9600D07C6E /* SocketAnyEvent.swift */; };
+		90852EAA1DF9CE9600D07C6E /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E921DF9CE9600D07C6E /* SocketClientManager.swift */; };
+		90852EAB1DF9CE9600D07C6E /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E931DF9CE9600D07C6E /* SocketEngine.swift */; };
+		90852EAC1DF9CE9600D07C6E /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E941DF9CE9600D07C6E /* SocketEngineClient.swift */; };
+		90852EAD1DF9CE9600D07C6E /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E951DF9CE9600D07C6E /* SocketEnginePacketType.swift */; };
+		90852EAE1DF9CE9600D07C6E /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E961DF9CE9600D07C6E /* SocketEnginePollable.swift */; };
+		90852EAF1DF9CE9600D07C6E /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E971DF9CE9600D07C6E /* SocketEngineSpec.swift */; };
+		90852EB01DF9CE9600D07C6E /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E981DF9CE9600D07C6E /* SocketEngineWebsocket.swift */; };
+		90852EB11DF9CE9600D07C6E /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E991DF9CE9600D07C6E /* SocketEventHandler.swift */; };
+		90852EB21DF9CE9600D07C6E /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E9A1DF9CE9600D07C6E /* SocketExtensions.swift */; };
+		90852EB31DF9CE9600D07C6E /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E9B1DF9CE9600D07C6E /* SocketIOClient.swift */; };
+		90852EB41DF9CE9600D07C6E /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E9C1DF9CE9600D07C6E /* SocketIOClientConfiguration.swift */; };
+		90852EB51DF9CE9600D07C6E /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E9D1DF9CE9600D07C6E /* SocketIOClientOption.swift */; };
+		90852EB61DF9CE9600D07C6E /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E9E1DF9CE9600D07C6E /* SocketIOClientSpec.swift */; };
+		90852EB71DF9CE9600D07C6E /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852E9F1DF9CE9600D07C6E /* SocketIOClientStatus.swift */; };
+		90852EB81DF9CE9600D07C6E /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA01DF9CE9600D07C6E /* SocketLogger.swift */; };
+		90852EB91DF9CE9600D07C6E /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA11DF9CE9600D07C6E /* SocketPacket.swift */; };
+		90852EBA1DF9CE9600D07C6E /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA21DF9CE9600D07C6E /* SocketParsable.swift */; };
+		90852EBB1DF9CE9600D07C6E /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA31DF9CE9600D07C6E /* SocketStringReader.swift */; };
+		90852EBC1DF9CE9600D07C6E /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA41DF9CE9600D07C6E /* SocketTypes.swift */; };
+		90852EBD1DF9CE9600D07C6E /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA51DF9CE9600D07C6E /* SSLSecurity.swift */; };
+		90852EBE1DF9CE9600D07C6E /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EA61DF9CE9600D07C6E /* WebSocket.swift */; };
+		90852EC01DF9CFE200D07C6E /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EBF1DF9CFE200D07C6E /* SocketIOManager.swift */; };
+		90852EC21DF9F05400D07C6E /* SelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90852EC11DF9F05400D07C6E /* SelectionController.swift */; };
+		909719EC1E030ACE008CEA34 /* silueta.png in Resources */ = {isa = PBXBuildFile; fileRef = 909719EB1E030ACE008CEA34 /* silueta.png */; };
+		90B40B121E01EB090020A459 /* gatoBatalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B40B111E01EB090020A459 /* gatoBatalla.png */; };
+		90BC151F1E0887CA00332F83 /* gatoBatallaTache.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BC151D1E0887CA00332F83 /* gatoBatallaTache.png */; };
+		90BC15201E0887CA00332F83 /* siluetaTache.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BC151E1E0887CA00332F83 /* siluetaTache.png */; };
+		90CAA9861E027BB900956BE9 /* victorioso.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CAA9851E027BB900956BE9 /* victorioso.png */; };
+		90F1E0B71E6F3FBA00021780 /* GameIAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E0B61E6F3FBA00021780 /* GameIAViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90852E321DF9B46000D07C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90852E181DF9B46000D07C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90852E1F1DF9B46000D07C6E;
+			remoteInfo = "Battlecats v2";
+		};
+		90852E3D1DF9B46000D07C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90852E181DF9B46000D07C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90852E1F1DF9B46000D07C6E;
+			remoteInfo = "Battlecats v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900D41351E0F4B6E0077C39B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9021B09A1DFF7A7E005CC728 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCell.swift; path = celdas/BaseCell.swift; sourceTree = "<group>"; };
+		9021B09C1DFF861D005CC728 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = celdas/UserCell.swift; sourceTree = "<group>"; };
+		9021B09D1DFF861D005CC728 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = celdas/UserCell.xib; sourceTree = "<group>"; };
+		906DE2981E01ECC3003834D9 /* gatoTriste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gatoTriste.png; sourceTree = "<group>"; };
+		9074C8071DFF5C8500491FFF /* tkshredder - zoomout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tkshredder - zoomout.wav"; sourceTree = "<group>"; };
+		9074C8081DFF5C8500491FFF /* Maullido doloroso.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Maullido doloroso.wav"; sourceTree = "<group>"; };
+		907A364F1DFA17B900E04D78 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = UserViewController.swift; sourceTree = "<group>"; };
+		90852E201DF9B46000D07C6E /* Battlecats v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battlecats v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90852E231DF9B46000D07C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90852E271DF9B46000D07C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90852E2A1DF9B46000D07C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90852E2C1DF9B46000D07C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90852E311DF9B46000D07C6E /* Battlecats v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battlecats v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90852E351DF9B46000D07C6E /* Battlecats_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battlecats_v2Tests.swift; sourceTree = "<group>"; };
+		90852E371DF9B46000D07C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90852E3C1DF9B46000D07C6E /* Battlecats v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battlecats v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90852E401DF9B46000D07C6E /* Battlecats_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battlecats_v2UITests.swift; sourceTree = "<group>"; };
+		90852E421DF9B46000D07C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90852E511DF9B6FE00D07C6E /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		90852E731DF9C38100D07C6E /* Maullido de gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maullido de gato.mp3"; sourceTree = "<group>"; };
+		90852E741DF9C38100D07C6E /* Nightcore – True Stories.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nightcore – True Stories.mp3"; sourceTree = "<group>"; };
+		90852E761DF9C38100D07C6E /* 128x2@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "128x2@.png"; sourceTree = "<group>"; };
+		90852E771DF9C38100D07C6E /* 16x2@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16x2@.png"; sourceTree = "<group>"; };
+		90852E781DF9C38100D07C6E /* 256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256.png; sourceTree = "<group>"; };
+		90852E791DF9C38100D07C6E /* 256x2@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "256x2@.png"; sourceTree = "<group>"; };
+		90852E7A1DF9C38100D07C6E /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		90852E7B1DF9C38100D07C6E /* 32x2@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32x2@.png"; sourceTree = "<group>"; };
+		90852E7C1DF9C38100D07C6E /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
+		90852E7D1DF9C38100D07C6E /* 512x2@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512x2@.png"; sourceTree = "<group>"; };
+		90852E7E1DF9C38100D07C6E /* carita seleccionada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carita seleccionada.png"; sourceTree = "<group>"; };
+		90852E7F1DF9C38100D07C6E /* carita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carita.png; sourceTree = "<group>"; };
+		90852E801DF9C38100D07C6E /* Gato dormido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gato dormido.png"; sourceTree = "<group>"; };
+		90852E8F1DF9CE9600D07C6E /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		90852E901DF9CE9600D07C6E /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		90852E911DF9CE9600D07C6E /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		90852E921DF9CE9600D07C6E /* SocketClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClientManager.swift; sourceTree = "<group>"; };
+		90852E931DF9CE9600D07C6E /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		90852E941DF9CE9600D07C6E /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		90852E951DF9CE9600D07C6E /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		90852E961DF9CE9600D07C6E /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
+		90852E971DF9CE9600D07C6E /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
+		90852E981DF9CE9600D07C6E /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		90852E991DF9CE9600D07C6E /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		90852E9A1DF9CE9600D07C6E /* SocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketExtensions.swift; sourceTree = "<group>"; };
+		90852E9B1DF9CE9600D07C6E /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		90852E9C1DF9CE9600D07C6E /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		90852E9D1DF9CE9600D07C6E /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
+		90852E9E1DF9CE9600D07C6E /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		90852E9F1DF9CE9600D07C6E /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		90852EA01DF9CE9600D07C6E /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		90852EA11DF9CE9600D07C6E /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		90852EA21DF9CE9600D07C6E /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
+		90852EA31DF9CE9600D07C6E /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		90852EA41DF9CE9600D07C6E /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		90852EA51DF9CE9600D07C6E /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		90852EA61DF9CE9600D07C6E /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		90852EBF1DF9CFE200D07C6E /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		90852EC11DF9F05400D07C6E /* SelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionController.swift; sourceTree = "<group>"; };
+		909719EB1E030ACE008CEA34 /* silueta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silueta.png; sourceTree = "<group>"; };
+		90B40B111E01EB090020A459 /* gatoBatalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gatoBatalla.png; sourceTree = "<group>"; };
+		90BC151D1E0887CA00332F83 /* gatoBatallaTache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gatoBatallaTache.png; sourceTree = "<group>"; };
+		90BC151E1E0887CA00332F83 /* siluetaTache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siluetaTache.png; sourceTree = "<group>"; };
+		90CAA9851E027BB900956BE9 /* victorioso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victorioso.png; sourceTree = "<group>"; };
+		90F1E0B61E6F3FBA00021780 /* GameIAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameIAViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90852E1D1DF9B46000D07C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90852E2E1DF9B46000D07C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90852E391DF9B46000D07C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9021B0761DFF6F8B005CC728 /* Celdas prediseñadas */ = {
+			isa = PBXGroup;
+			children = (
+				9021B09A1DFF7A7E005CC728 /* BaseCell.swift */,
+				9021B09C1DFF861D005CC728 /* UserCell.swift */,
+				9021B09D1DFF861D005CC728 /* UserCell.xib */,
+			);
+			name = "Celdas prediseñadas";
+			sourceTree = "<group>";
+		};
+		902C75F81E0ECE7800AF6A5A /* Internacionalización */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Internacionalización";
+			sourceTree = "<group>";
+		};
+		90852E171DF9B46000D07C6E = {
+			isa = PBXGroup;
+			children = (
+				90852E221DF9B46000D07C6E /* Battlecats v2 */,
+				90852E341DF9B46000D07C6E /* Battlecats v2Tests */,
+				90852E3F1DF9B46000D07C6E /* Battlecats v2UITests */,
+				90852E211DF9B46000D07C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90852E211DF9B46000D07C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90852E201DF9B46000D07C6E /* Battlecats v2.app */,
+				90852E311DF9B46000D07C6E /* Battlecats v2Tests.xctest */,
+				90852E3C1DF9B46000D07C6E /* Battlecats v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90852E221DF9B46000D07C6E /* Battlecats v2 */ = {
+			isa = PBXGroup;
+			children = (
+				9021B0761DFF6F8B005CC728 /* Celdas prediseñadas */,
+				90852E8E1DF9CE9600D07C6E /* Source */,
+				90852E711DF9C38100D07C6E /* auxiliar */,
+				90852E4E1DF9B4AA00D07C6E /* Controladores */,
+				90852E231DF9B46000D07C6E /* AppDelegate.swift */,
+				90852E271DF9B46000D07C6E /* Assets.xcassets */,
+				90852E291DF9B46000D07C6E /* Main.storyboard */,
+				90852E2C1DF9B46000D07C6E /* Info.plist */,
+			);
+			path = "Battlecats v2";
+			sourceTree = "<group>";
+		};
+		90852E341DF9B46000D07C6E /* Battlecats v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90852E351DF9B46000D07C6E /* Battlecats_v2Tests.swift */,
+				90852E371DF9B46000D07C6E /* Info.plist */,
+			);
+			path = "Battlecats v2Tests";
+			sourceTree = "<group>";
+		};
+		90852E3F1DF9B46000D07C6E /* Battlecats v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				90852E401DF9B46000D07C6E /* Battlecats_v2UITests.swift */,
+				90852E421DF9B46000D07C6E /* Info.plist */,
+			);
+			path = "Battlecats v2UITests";
+			sourceTree = "<group>";
+		};
+		90852E4E1DF9B4AA00D07C6E /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				907A364F1DFA17B900E04D78 /* UserViewController.swift */,
+				90852E511DF9B6FE00D07C6E /* GameViewController.swift */,
+				90852EC11DF9F05400D07C6E /* SelectionController.swift */,
+				90852EBF1DF9CFE200D07C6E /* SocketIOManager.swift */,
+				90F1E0B61E6F3FBA00021780 /* GameIAViewController.swift */,
+			);
+			name = Controladores;
+			sourceTree = "<group>";
+		};
+		90852E711DF9C38100D07C6E /* auxiliar */ = {
+			isa = PBXGroup;
+			children = (
+				902C75F81E0ECE7800AF6A5A /* Internacionalización */,
+				90852E721DF9C38100D07C6E /* audio */,
+				90852E751DF9C38100D07C6E /* images */,
+			);
+			path = auxiliar;
+			sourceTree = "<group>";
+		};
+		90852E721DF9C38100D07C6E /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				90852E731DF9C38100D07C6E /* Maullido de gato.mp3 */,
+				9074C8071DFF5C8500491FFF /* tkshredder - zoomout.wav */,
+				9074C8081DFF5C8500491FFF /* Maullido doloroso.wav */,
+				90852E741DF9C38100D07C6E /* Nightcore – True Stories.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		90852E751DF9C38100D07C6E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90852E761DF9C38100D07C6E /* 128x2@.png */,
+				90852E771DF9C38100D07C6E /* 16x2@.png */,
+				90852E781DF9C38100D07C6E /* 256.png */,
+				90852E791DF9C38100D07C6E /* 256x2@.png */,
+				90852E7A1DF9C38100D07C6E /* 32.png */,
+				90852E7B1DF9C38100D07C6E /* 32x2@.png */,
+				90852E7C1DF9C38100D07C6E /* 512.png */,
+				90852E7D1DF9C38100D07C6E /* 512x2@.png */,
+				90852E7E1DF9C38100D07C6E /* carita seleccionada.png */,
+				90852E7F1DF9C38100D07C6E /* carita.png */,
+				90B40B111E01EB090020A459 /* gatoBatalla.png */,
+				90852E801DF9C38100D07C6E /* Gato dormido.png */,
+				906DE2981E01ECC3003834D9 /* gatoTriste.png */,
+				909719EB1E030ACE008CEA34 /* silueta.png */,
+				90CAA9851E027BB900956BE9 /* victorioso.png */,
+				90BC151D1E0887CA00332F83 /* gatoBatallaTache.png */,
+				90BC151E1E0887CA00332F83 /* siluetaTache.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		90852E8E1DF9CE9600D07C6E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				90852E8F1DF9CE9600D07C6E /* SocketAckEmitter.swift */,
+				90852E901DF9CE9600D07C6E /* SocketAckManager.swift */,
+				90852E911DF9CE9600D07C6E /* SocketAnyEvent.swift */,
+				90852E921DF9CE9600D07C6E /* SocketClientManager.swift */,
+				90852E931DF9CE9600D07C6E /* SocketEngine.swift */,
+				90852E941DF9CE9600D07C6E /* SocketEngineClient.swift */,
+				90852E951DF9CE9600D07C6E /* SocketEnginePacketType.swift */,
+				90852E961DF9CE9600D07C6E /* SocketEnginePollable.swift */,
+				90852E971DF9CE9600D07C6E /* SocketEngineSpec.swift */,
+				90852E981DF9CE9600D07C6E /* SocketEngineWebsocket.swift */,
+				90852E991DF9CE9600D07C6E /* SocketEventHandler.swift */,
+				90852E9A1DF9CE9600D07C6E /* SocketExtensions.swift */,
+				90852E9B1DF9CE9600D07C6E /* SocketIOClient.swift */,
+				90852E9C1DF9CE9600D07C6E /* SocketIOClientConfiguration.swift */,
+				90852E9D1DF9CE9600D07C6E /* SocketIOClientOption.swift */,
+				90852E9E1DF9CE9600D07C6E /* SocketIOClientSpec.swift */,
+				90852E9F1DF9CE9600D07C6E /* SocketIOClientStatus.swift */,
+				90852EA01DF9CE9600D07C6E /* SocketLogger.swift */,
+				90852EA11DF9CE9600D07C6E /* SocketPacket.swift */,
+				90852EA21DF9CE9600D07C6E /* SocketParsable.swift */,
+				90852EA31DF9CE9600D07C6E /* SocketStringReader.swift */,
+				90852EA41DF9CE9600D07C6E /* SocketTypes.swift */,
+				90852EA51DF9CE9600D07C6E /* SSLSecurity.swift */,
+				90852EA61DF9CE9600D07C6E /* WebSocket.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90852E1F1DF9B46000D07C6E /* Battlecats v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90852E451DF9B46000D07C6E /* Build configuration list for PBXNativeTarget "Battlecats v2" */;
+			buildPhases = (
+				90852E1C1DF9B46000D07C6E /* Sources */,
+				90852E1D1DF9B46000D07C6E /* Frameworks */,
+				90852E1E1DF9B46000D07C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battlecats v2";
+			productName = "Battlecats v2";
+			productReference = 90852E201DF9B46000D07C6E /* Battlecats v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90852E301DF9B46000D07C6E /* Battlecats v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90852E481DF9B46000D07C6E /* Build configuration list for PBXNativeTarget "Battlecats v2Tests" */;
+			buildPhases = (
+				90852E2D1DF9B46000D07C6E /* Sources */,
+				90852E2E1DF9B46000D07C6E /* Frameworks */,
+				90852E2F1DF9B46000D07C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90852E331DF9B46000D07C6E /* PBXTargetDependency */,
+			);
+			name = "Battlecats v2Tests";
+			productName = "Battlecats v2Tests";
+			productReference = 90852E311DF9B46000D07C6E /* Battlecats v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90852E3B1DF9B46000D07C6E /* Battlecats v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90852E4B1DF9B46000D07C6E /* Build configuration list for PBXNativeTarget "Battlecats v2UITests" */;
+			buildPhases = (
+				90852E381DF9B46000D07C6E /* Sources */,
+				90852E391DF9B46000D07C6E /* Frameworks */,
+				90852E3A1DF9B46000D07C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90852E3E1DF9B46000D07C6E /* PBXTargetDependency */,
+			);
+			name = "Battlecats v2UITests";
+			productName = "Battlecats v2UITests";
+			productReference = 90852E3C1DF9B46000D07C6E /* Battlecats v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90852E181DF9B46000D07C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Swifticats;
+				TargetAttributes = {
+					90852E1F1DF9B46000D07C6E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					90852E301DF9B46000D07C6E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90852E1F1DF9B46000D07C6E;
+					};
+					90852E3B1DF9B46000D07C6E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90852E1F1DF9B46000D07C6E;
+					};
+				};
+			};
+			buildConfigurationList = 90852E1B1DF9B46000D07C6E /* Build configuration list for PBXProject "Battlecats v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90852E171DF9B46000D07C6E;
+			productRefGroup = 90852E211DF9B46000D07C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90852E1F1DF9B46000D07C6E /* Battlecats v2 */,
+				90852E301DF9B46000D07C6E /* Battlecats v2Tests */,
+				90852E3B1DF9B46000D07C6E /* Battlecats v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90852E1E1DF9B46000D07C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90852E851DF9C38100D07C6E /* 256.png in Resources */,
+				90852E281DF9B46000D07C6E /* Assets.xcassets in Resources */,
+				90852E8B1DF9C38100D07C6E /* carita seleccionada.png in Resources */,
+				90852E871DF9C38100D07C6E /* 32.png in Resources */,
+				90852E821DF9C38100D07C6E /* Nightcore – True Stories.mp3 in Resources */,
+				90852E891DF9C38100D07C6E /* 512.png in Resources */,
+				90B40B121E01EB090020A459 /* gatoBatalla.png in Resources */,
+				90852E2B1DF9B46000D07C6E /* Main.storyboard in Resources */,
+				90852E8C1DF9C38100D07C6E /* carita.png in Resources */,
+				90852E861DF9C38100D07C6E /* 256x2@.png in Resources */,
+				90852E841DF9C38100D07C6E /* 16x2@.png in Resources */,
+				906DE2991E01ECC3003834D9 /* gatoTriste.png in Resources */,
+				90852E881DF9C38100D07C6E /* 32x2@.png in Resources */,
+				90852E8D1DF9C38100D07C6E /* Gato dormido.png in Resources */,
+				90852E811DF9C38100D07C6E /* Maullido de gato.mp3 in Resources */,
+				909719EC1E030ACE008CEA34 /* silueta.png in Resources */,
+				90852E831DF9C38100D07C6E /* 128x2@.png in Resources */,
+				9021B09F1DFF861D005CC728 /* UserCell.xib in Resources */,
+				9074C8091DFF5C8500491FFF /* tkshredder - zoomout.wav in Resources */,
+				90BC151F1E0887CA00332F83 /* gatoBatallaTache.png in Resources */,
+				90852E8A1DF9C38100D07C6E /* 512x2@.png in Resources */,
+				9074C80A1DFF5C8500491FFF /* Maullido doloroso.wav in Resources */,
+				90CAA9861E027BB900956BE9 /* victorioso.png in Resources */,
+				90BC15201E0887CA00332F83 /* siluetaTache.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90852E2F1DF9B46000D07C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90852E3A1DF9B46000D07C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90852E1C1DF9B46000D07C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90852EB71DF9CE9600D07C6E /* SocketIOClientStatus.swift in Sources */,
+				90852EB41DF9CE9600D07C6E /* SocketIOClientConfiguration.swift in Sources */,
+				90852EB61DF9CE9600D07C6E /* SocketIOClientSpec.swift in Sources */,
+				90852EB01DF9CE9600D07C6E /* SocketEngineWebsocket.swift in Sources */,
+				90852EA81DF9CE9600D07C6E /* SocketAckManager.swift in Sources */,
+				90852EC21DF9F05400D07C6E /* SelectionController.swift in Sources */,
+				90852EBB1DF9CE9600D07C6E /* SocketStringReader.swift in Sources */,
+				90852EAA1DF9CE9600D07C6E /* SocketClientManager.swift in Sources */,
+				90852EB11DF9CE9600D07C6E /* SocketEventHandler.swift in Sources */,
+				90852EB51DF9CE9600D07C6E /* SocketIOClientOption.swift in Sources */,
+				90852EBD1DF9CE9600D07C6E /* SSLSecurity.swift in Sources */,
+				90852EAF1DF9CE9600D07C6E /* SocketEngineSpec.swift in Sources */,
+				90852EBA1DF9CE9600D07C6E /* SocketParsable.swift in Sources */,
+				90852EA91DF9CE9600D07C6E /* SocketAnyEvent.swift in Sources */,
+				90852EB81DF9CE9600D07C6E /* SocketLogger.swift in Sources */,
+				90852EAC1DF9CE9600D07C6E /* SocketEngineClient.swift in Sources */,
+				90852EBE1DF9CE9600D07C6E /* WebSocket.swift in Sources */,
+				90852EAB1DF9CE9600D07C6E /* SocketEngine.swift in Sources */,
+				90852E521DF9B6FE00D07C6E /* GameViewController.swift in Sources */,
+				9021B09B1DFF7A7E005CC728 /* BaseCell.swift in Sources */,
+				907A36501DFA17B900E04D78 /* UserViewController.swift in Sources */,
+				90852EBC1DF9CE9600D07C6E /* SocketTypes.swift in Sources */,
+				90852E241DF9B46000D07C6E /* AppDelegate.swift in Sources */,
+				90852EB91DF9CE9600D07C6E /* SocketPacket.swift in Sources */,
+				90F1E0B71E6F3FBA00021780 /* GameIAViewController.swift in Sources */,
+				90852EB21DF9CE9600D07C6E /* SocketExtensions.swift in Sources */,
+				90852EAD1DF9CE9600D07C6E /* SocketEnginePacketType.swift in Sources */,
+				90852EC01DF9CFE200D07C6E /* SocketIOManager.swift in Sources */,
+				90852EA71DF9CE9600D07C6E /* SocketAckEmitter.swift in Sources */,
+				9021B09E1DFF861D005CC728 /* UserCell.swift in Sources */,
+				90852EAE1DF9CE9600D07C6E /* SocketEnginePollable.swift in Sources */,
+				90852EB31DF9CE9600D07C6E /* SocketIOClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90852E2D1DF9B46000D07C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90852E361DF9B46000D07C6E /* Battlecats_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90852E381DF9B46000D07C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90852E411DF9B46000D07C6E /* Battlecats_v2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90852E331DF9B46000D07C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90852E1F1DF9B46000D07C6E /* Battlecats v2 */;
+			targetProxy = 90852E321DF9B46000D07C6E /* PBXContainerItemProxy */;
+		};
+		90852E3E1DF9B46000D07C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90852E1F1DF9B46000D07C6E /* Battlecats v2 */;
+			targetProxy = 90852E3D1DF9B46000D07C6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90852E291DF9B46000D07C6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90852E2A1DF9B46000D07C6E /* Base */,
+				900D41351E0F4B6E0077C39B /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90852E431DF9B46000D07C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90852E441DF9B46000D07C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		90852E461DF9B46000D07C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battlecats v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swfticats.Battlecats-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90852E471DF9B46000D07C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battlecats v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swfticats.Battlecats-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90852E491DF9B46000D07C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battlecats v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swfticats.Battlecats-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battlecats v2.app/Contents/MacOS/Battlecats v2";
+			};
+			name = Debug;
+		};
+		90852E4A1DF9B46000D07C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battlecats v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swfticats.Battlecats-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battlecats v2.app/Contents/MacOS/Battlecats v2";
+			};
+			name = Release;
+		};
+		90852E4C1DF9B46000D07C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battlecats v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swfticats.Battlecats-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Battlecats v2";
+			};
+			name = Debug;
+		};
+		90852E4D1DF9B46000D07C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battlecats v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swfticats.Battlecats-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Battlecats v2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90852E1B1DF9B46000D07C6E /* Build configuration list for PBXProject "Battlecats v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90852E431DF9B46000D07C6E /* Debug */,
+				90852E441DF9B46000D07C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90852E451DF9B46000D07C6E /* Build configuration list for PBXNativeTarget "Battlecats v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90852E461DF9B46000D07C6E /* Debug */,
+				90852E471DF9B46000D07C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90852E481DF9B46000D07C6E /* Build configuration list for PBXNativeTarget "Battlecats v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90852E491DF9B46000D07C6E /* Debug */,
+				90852E4A1DF9B46000D07C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90852E4B1DF9B46000D07C6E /* Build configuration list for PBXNativeTarget "Battlecats v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90852E4C1DF9B46000D07C6E /* Debug */,
+				90852E4D1DF9B46000D07C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90852E181DF9B46000D07C6E /* Project object */;
+}

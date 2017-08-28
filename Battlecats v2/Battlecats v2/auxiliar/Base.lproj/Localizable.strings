@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Battlecats v2
+
+  Created by Enrique Rodríguez Castañeda on 24/12/16.
+  Copyright © 2016 Swifticats. All rights reserved.
+*/
+
+
+/* "Mensaje que aparece en el título de la alerta de la invitación" */
+"Invitación" = "Invitación";
+
+/* Mensaje que se muestra cuando un usuario invita a otro a jugar una partida */
+"Te invita a jugar una partida" = "Te invita a jugar una partida";
+
+/* Mensaje que aparece en el botón de aceptar */
+"Aceptar" = "Aceptar";
+
+/* Mensaje que aparece en el boton de rechazar */
+"Rechazar" = "Rechazar";
+
+/* Mensaje que aparece cuando intenta invitarse a si mismo a jugar */
+"No puedes invitarte a ti mismo" = "No puedes invitarte a ti mismo";
+
+/* Una disculpa */
+"Lo sientimos" = "Lo sentimos";
+
+/* Mensaje que aparece cuando un usuario rechaza la invitación */
+" rechazó tu invitación" = " rechazó tu invitación";
+
+/* Pregunta de confirmación para salir */
+"¿Seguro que quieres salir?" = "¿Seguro que quieres salir?";
+
+/* Comentario del mensaje de confirmación para salir */
+"Presiona desconectar para salir" = "Presiona desconectar para salir";
+
+/* Botón para desconectar */
+"Desconectar" = "Desconectar";
+
+/* Botón para cancelar */
+"Cancelar" = "Cancelar";
+
+/* Mensaje que aparece en la ayuda del usuario para explicar como mandar una invitación */
+"Para mandar una invitación da doble clic sobre el nombre del usuario" = "Para mandar una invitación da doble clic sobre el nombre del usuario";
+
+/* Mensaje de información de la alerta para la ayuda de mandar una invitación */
+"¡Juguemos Battlecats!" = "¡Juguemos Battlecats!";
+
+/* Mensaje que aparece cuando el usuario gana el juego */
+"¡Felicidades! Ganaste el juego" = "¡Felicidades! Ganaste el juego";
+
+/* Mensaje de información cuando el usuario gana la partida */
+"Tu equipo se ha quedado con la herencia" = "Tu equipo se ha quedado con la herencia";
+
+/* Mensaje que aparece cuando el usuario pierde la partida */
+"¡Jajajaja! Perdiste el juego" = "¡Jajajaja! Perdiste el juego";
+
+/* Mensaje de información cuando el usuario pierde la partida */
+"Te han robado la muchas croquetas de la herencia" = "Te han robado la muchas croquetas de la herencia";
